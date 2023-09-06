@@ -8,6 +8,6 @@ public interface Shape {
 	// double rectangleArea();
 	// double circleArea();
 	// double squareArea();
-	double Area(double height, double width, double radius);
+	double area(double height, double width, double radius);
 }
 

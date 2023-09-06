@@ -33,7 +33,7 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public double Area(double height, double width, double radius) {
+    public double area(double height, double width, double radius) {
         return (this.height*this.width);
     }
 }

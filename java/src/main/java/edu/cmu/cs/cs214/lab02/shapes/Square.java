@@ -12,7 +12,7 @@ public class Square implements Shape {
     // }
 
     @Override
-    public double Area(double side, double width, double radius) {
+    public double area(double side, double width, double radius) {
         return (side*side);
     }
 }

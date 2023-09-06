@@ -19,15 +19,15 @@ public class Renderer{
 
         switch (num) {
             case 1:
-                double areaR = rectangle.Area(rectangle.getHeight(),rectangle.getWidth(), Shape.radius);
+                double areaR = rectangle.area(rectangle.getHeight(),rectangle.getWidth(), Shape.radius);
                 System.out.println("Shape printed\n" + "Its area is " + areaR);
                 break;
             case 2:
-                double areaS = square.Area(3.44,0 , 0);
+                double areaS = square.area(3.44,0 , 0);
                 System.out.println("Shape printed\n" + "Its area is " + areaS);
                 break;
             case 3:
-                double areaC = circle.Area(0,0 , 5);
+                double areaC = circle.area(0,0 , 5);
                 System.out.println("Shape printed\n" + "Its area is " + areaC);
                 break;
             default:

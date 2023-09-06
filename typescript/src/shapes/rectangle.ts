@@ -1,18 +1,24 @@
-interface Rectangle {
-    width: number,
-    height: number,
-    computeArea: () => number
+var rectangle = {
+    height:10,
+    width:20
 }
 
-function newRectangle(width: number, height: number): Rectangle {
-    return {
-        width,
-        height,
-
-        computeArea: function (): number {
-            return width * height
-        }
+var getterSet = {
+    getHeight: () : number => {
+        return 10
+    }
+    ,
+    setHeight:(heights:number) => {
+        rectangle.height = heights
     }
 }
 
-export { Rectangle, newRectangle }
+
+
+var areaR:Shape = { 
+    area: (height, width):number =>{return rectangle.height*rectangle.width} 
+ } 
+
+    
+
+export { areaR, getterSet }
