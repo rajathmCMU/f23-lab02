@@ -1,7 +1,5 @@
 package edu.cmu.cs.cs214.lab02;
 
-import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
-
 // import edu.cmu.cs.cs214.lab02.shapes.Rectangle;
 
 public class Main {
@@ -14,5 +12,7 @@ public class Main {
          * Case 3 : circle
          */
         renderer.draw(1);
+        renderer.draw(2);
+        renderer.draw(3);
     }
 }

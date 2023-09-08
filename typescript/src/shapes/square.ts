@@ -1,13 +1,4 @@
-// function square(sideLen: number): Shape {
-//     return {
-//         sideLen,
-//         computeArea: function (): number {
-//             return sideLen * sideLen
-//         }
-//     }
-// }
-
-// export { square }
+import { Shape } from "./shape"
 
 var square = {
     side:10
@@ -17,7 +8,5 @@ var square = {
 var areaS:Shape = { 
     area: ():number =>{return square.side*square.side} 
  } 
-
-    
 
 export { areaS }

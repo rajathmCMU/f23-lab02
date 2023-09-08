@@ -1,23 +1,26 @@
+import { Shape } from "./shape"
+
 var rectangle = {
     height:10,
     width:20
 }
 
 var getterSet = {
+    
     getHeight: () : number => {
-        return 10
+        return rectangle.height;
     }
     ,
-    setHeight:(heights:number) => {
-        rectangle.height = heights
+    setHeight:(newHeight:number) => {
+        rectangle.height = newHeight
     }
 }
 
 
 
 var areaR:Shape = { 
-    area: (height, width):number =>{return rectangle.height*rectangle.width} 
- } 
+    area: ():number =>{return rectangle.height*rectangle.width} 
+} 
 
     
 

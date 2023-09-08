@@ -1,18 +1,11 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
 public class Square implements Shape {
-    // public double sideLen;
 
-    // public Square(double sideLen) {
-    //     this.sideLen = sideLen;
-    // }
-    
-    // public double getArea() {
-    //     return sideLen * sideLen;
-    // }
+    double side = 5;
 
     @Override
-    public double area(double side, double width, double radius) {
+    public double area() {
         return (side*side);
     }
 }

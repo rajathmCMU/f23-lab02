@@ -5,10 +5,13 @@ import { areaC } from "./shapes/circle.js";
 
 function draw(x: number) {
 
-    console.log("current height: " ,getterSet.getHeight);
+    const Oldnum: number = getterSet.getHeight()
+    console.log("current height: " ,Oldnum);
     console.log("Shape rect drawn\n" + "Its area is " + areaR.area())
     getterSet.setHeight(500);
-    console.log("new height: " ,getterSet.getHeight);
+    const Newnum: number = getterSet.getHeight()
+    console.log("new height: " ,Newnum);
+
     switch (x) {
         case 1:
             console.log("Shape rect (new) drawn\n" + "Its area is " + areaR.area())
